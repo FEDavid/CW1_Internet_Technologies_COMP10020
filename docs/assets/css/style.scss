@@ -22,7 +22,8 @@ body{
     border-radius: 10px;
     text-align: center;
     justify-content: center;
-    font-size:16px;
+    font-size: 16px;
+    gap: 1rem;
 }
 
 // Other CSS
@@ -35,5 +36,10 @@ body{
 @media screen and (max-width: 42em) {
     .head-nav {
         grid-auto-flow: row;
+    }
+
+    .head-nav a{
+        width: 100%;
+        margin: 0;
     }
 }
