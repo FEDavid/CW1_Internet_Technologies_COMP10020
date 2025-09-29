@@ -1,1 +1,5 @@
-
+h1.project-name,
+h1.site-title,
+header .project-name,
+.site-header,
+.page-header { display: none !important; }
