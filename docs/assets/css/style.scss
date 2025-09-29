@@ -30,3 +30,10 @@ body{
     background-color: #262A2D !important;
     background-image: none;
 }
+
+// Page resize
+@media screen and (max-width: 42em) {
+    .head-nav {
+        grid-auto-flow: row;
+    }
+}
