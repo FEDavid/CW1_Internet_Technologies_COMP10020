@@ -1,3 +1,8 @@
-# Introduction
+---
+layout: page
+title: "Introduction"
+permalink: /introduction/
+---
 
-Intro text
+## Introduction
+Introduction..
