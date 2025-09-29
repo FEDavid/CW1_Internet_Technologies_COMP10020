@@ -34,9 +34,13 @@ body{
 
 // Page resize
 @media screen and (max-width: 42em) {
+
+    .btn{
+        margin-top: 0 !important;
+    }
     
     .page-header{
-        padding: 1rem 1rem 0 1rem !important;
+        padding: 1rem;
     }
     
     .main-content{
