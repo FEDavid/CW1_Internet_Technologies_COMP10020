@@ -7,13 +7,31 @@
 //     display: none !important;
 // }
 
-.project-name, .project-tagline{
-    margin: 2rem 0;
+// Standard
+:root {
+    --highlight-green: #80EA6E;
+    --dark-green: #589133;
+    --bright-green: #6DB33F;
+    --background-grey: #1B1F23;
+    --light-grey: #262A2D;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--highlight-green);
 }
 
 body{
     background-color: #1B1F23;
     color: white;
+}
+
+// Headers
+.project-name, .project-tagline{
+    margin: 2rem 0;
+}
+
+.page-header{
+    padding: 1rem;
 }
 
 // Navbar CSS
