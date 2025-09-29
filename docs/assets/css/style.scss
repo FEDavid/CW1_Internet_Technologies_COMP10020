@@ -7,6 +7,10 @@
 //     display: none !important;
 // }
 
+body{
+    background-color: #1B1F23;
+}
+
 // Navbar CSS
 .head-nav {
     display: grid;
@@ -23,7 +27,8 @@
     color: #80EA6E;
     text-decoration: none;
     transition: all 0.3s ease;
-    background-color: #1B1F23;
+    background-color: #262A2D;
+
 }
 
 .head-nav a:first-child {
@@ -43,6 +48,6 @@
 
 // Other CSS
 .page-header{
-    background-color: #1B1F23 !important;
+    background-color: #1E2123 !important;
     background-image: none;
 }
