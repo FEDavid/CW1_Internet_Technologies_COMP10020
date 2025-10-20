@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Celebrity Lookup</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background: #f9f9f9;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    input {
+      padding: 8px;
+      width: 250px;
+      margin-bottom: 20px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .person {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin: 10px auto;
+      padding: 15px;
+      width: 320px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .person-info {
+      flex-grow: 1;
+    }
+
+    .person img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-left: 10px;
+    }
+
+    #results {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Celebrity Lookup</h1>
+  <input type="text" id="searchBox" placeholder="Type a name...">
+  <div id="results"></div>
+
+  <script>
+    const searchBox = document.getElementById('searchBox');
+    const resultsDiv = document.getElementById('results');
+
+    searchBox.addEventListener('input', async () => {
+      const query = searchBox.value.trim();
+      if (!query) {
+        resultsDiv.innerHTML = '';
+        return;
+      }
+
+      const response = await fetch(`/api/people/search?name=${encodeURIComponent(query)}`);
+      const people = await response.json();
+
+      if (people.length === 0) {
+        resultsDiv.innerHTML = '<p>No results found</p>';
+        return;
+      }
+
+      const html = people.map(p => `
+        <div class="person">
+          <div class="person-info">
+            <strong>${p.name}</strong><br>
+            Occupation: ${p.occupation}<br>
+            Age: ${p.age}
+          </div>
+          <img src="images/${p.image}" alt="${p.name}">
+        </div>
+      `).join('');
+
+      resultsDiv.innerHTML = html;
+    });
+  </script>
+</body>
+</html>
