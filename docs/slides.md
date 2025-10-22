@@ -10,6 +10,8 @@ permalink: /presentation/
 
 # Spring Boot Presentation
 
+![The San Juan Mountains are beautiful] (./Presentation/Slide1.jpg)
+
 <img src = "./Presentation/Slide1.jpg" class="slide">
 
 ### context / extra information
