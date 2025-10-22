@@ -10,7 +10,7 @@ permalink: /presentation/
 
 # Spring Boot Presentation
 
-<img src = "Presentation/Slide1.jpg" class="slide">
+<img src = "./Presentation/Slide1.jpg" class="slide">
 
 ### context / extra information
 
