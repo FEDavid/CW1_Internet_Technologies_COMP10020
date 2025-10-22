@@ -9,6 +9,12 @@ permalink: /tutorial/
 
 # Spring Boot Tutorial
 
+- [Spring Boot Tutorial](#spring-boot-tutorial)
+  - [Set up VS Code and Docker](#set-up-vs-code-and-docker)
+  - [Set up Spring Boot](#set-up-spring-boot)
+  - [Frontend Setup](#frontend-setup)
+  - [Running the App](#running-the-app)
+
 Welcome to our Spring Boot tutorial. In this tutorial, we will show you how to set up a simple celebrity lookup API.
 
 ## Set up VS Code and Docker
