@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "CW1 Internet Technologies COMP10020"
-description: "Tutorial to Springboot"
+description: "Tutorial to Spring Boot"
 permalink: /tutorial/
 ---
 

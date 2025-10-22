@@ -7,5 +7,5 @@ permalink: /introduction/
 
 {% include navbar.html %}
 
-## Introduction
+# Introduction
 Introduction..
