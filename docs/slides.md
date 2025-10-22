@@ -27,16 +27,15 @@ May also add headings to seperate the sections of slides (overview, introduction
 
  context / extra information
 
-#
-
-
+---
+<hr>
 
 ![Cover Slide](Presentation/Slide2.jpg)
 
 
  context / extra information
 
-# 
+---
 
 ![Cover Slide](Presentation/Slide3.jpg)
 
