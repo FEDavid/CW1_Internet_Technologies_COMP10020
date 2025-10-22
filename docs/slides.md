@@ -26,6 +26,7 @@ May also add headings to seperate the sections of slides (overview, introduction
 
 
  context / extra information
+
 ##
 
 
@@ -34,36 +35,43 @@ May also add headings to seperate the sections of slides (overview, introduction
 
 
  context / extra information
+
 ##
 
 ![Cover Slide](Presentation/Slide3.jpg)
 
 context / extra information
+
 ##
 
 ![Cover Slide](Presentation/Slide4.jpg)
 
  context / extra information
+
 ##
 
 ![Cover Slide](Presentation/Slide5.jpg)
 
  context / extra information
+
 ##
 
 ![Cover Slide](Presentation/Slide6.jpg)
 
 context / extra information
+
 ##
 
 ![Cover Slide](Presentation/Slide7.jpg)
 
 context / extra information
+
 ##
 
 ![Cover Slide](Presentation/Slide8.jpg)
 
 context / extra information
+
 ##
 
 
@@ -78,34 +86,41 @@ Trivago has also distributed **hundreds of millions of specific, personalised of
 ![Cover Slide](Presentation/Slide10.jpg)
 
 context / extra information
+
 ##
 
 ![Cover Slide](Presentation/Slide11.jpg)
 
 context / extra information
+
 ##
 
 ![Cover Slide](Presentation/Slide12.jpg)
 
 context / extra information
+
 ##
 
 ![Cover Slide](Presentation/Slide13.jpg)
 
 context / extra information
+
 ##
 
 ![Cover Slide](Presentation/Slide14.jpg)
 
 context / extra information
+
 ##
 
 ![Cover Slide](Presentation/Slide15.jpg)
 
 context / extra information
+
 ##
 
 ![Cover Slide](Presentation/Slide16.jpg)
 
 context / extra information
+
 ##
