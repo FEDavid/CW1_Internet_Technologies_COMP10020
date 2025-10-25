@@ -7,19 +7,14 @@ permalink: /presentation/
 
 {% include navbar.html %}
 
-
-Structure for slides goes:
-- Slide image
-- Description/explanation
-- "---" for an underline to seperate slides
-
-Can always change things around before tuesday
-
-May also add headings to seperate the sections of slides (overview, introduction, examples etc)
-
-
 # Spring Boot Presentation
 
+- [Spring Boot Presentation](#spring-boot-presentation)
+  - [Introduction](#introduction)
+  - [Examples](#examples)
+  - [Technology](#technology)
+  - [Tutorial](#tutorial)
+  - [Conclusion](#conclusion)
 
 ![Cover Slide](Presentation/Slide1.jpg)
 
@@ -34,7 +29,9 @@ May also add headings to seperate the sections of slides (overview, introduction
 
  context / extra information
 
+
 ---
+## Introduction
 
 ![Cover Slide](Presentation/Slide3.jpg)
 
@@ -59,6 +56,7 @@ context / extra information
 context / extra information
 
 ---
+## Examples
 
 ![Cover Slide](Presentation/Slide7.jpg)
 
@@ -81,16 +79,19 @@ context / extra information
 Trivago has also distributed **hundreds of millions of specific, personalised offers** to users.
 
 ---
+## Technology
 
 ![Cover Slide](Presentation/Slide10.jpg)
 
-context / extra information
+For both existing businesses and start-ups, **it is vastly easier to justify a project and to successfully get a point across through functioning prototypes that actually exist in front of a user** (even if a prototype is unfinished or bug-riddled), rather than through hypotheticals and ideas.
+
+This is what makes Spring Boot such an attractive option. There's an understanding that more time spent in development without a working prototype means less user feedback, and could hold other departments of a project back.
 
 ---
 
 ![Cover Slide](Presentation/Slide11.jpg)
 
-context / extra information
+While other implementations such as EscapeLink exist, Hibernate is by far the most popular amongst them, with the most usage and in-depth documentation. Hibernate removes human error from database configuration by mitigating manual data entry and **produces intrinsically legitimate relations automatically through Java objects**.
 
 ---
 
@@ -98,8 +99,13 @@ context / extra information
 
 context / extra information
 
+Netflix utilises Cassandra through Spring Boot to deal with the immense amout of data they hold. 
+
+While Spring Boot comes equipped with fundamental support for a wealth of database frameworks, **these are not the only frameworks compatible with Spring Boot projects.** If developers are attached to other particular database frameworks (such as MySQL or PostgreSQL), these frameworks can still be manually configured as normal to work with Spring Boot.
+
 ---
 
+## Tutorial
 ![Cover Slide](Presentation/Slide13.jpg)
 
 context / extra information
@@ -118,8 +124,8 @@ context / extra information
 
 ---
 
+## Conclusion
+
 ![Cover Slide](Presentation/Slide16.jpg)
 
-context / extra information
-
----
+With AI solutions increasing in popularity at a seemingly exponential rate, there **isn't time for development teams to manually navigate through obtuse configuration procedures** and cobble together solutions that theortically might work. Spring Boot is built fundamentally with ease-of-use and smooth deployments in mind.
