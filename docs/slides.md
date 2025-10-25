@@ -9,12 +9,17 @@ permalink: /presentation/
 
 # Spring Boot Presentation
 
+---
+### Table of Contents
 - [Spring Boot Presentation](#spring-boot-presentation)
   - [Introduction](#introduction)
   - [Examples](#examples)
   - [Technology](#technology)
   - [Tutorial](#tutorial)
   - [Conclusion](#conclusion)
+
+---
+
 
 ![Cover Slide](Presentation/Slide1.jpg)
 
@@ -32,6 +37,7 @@ permalink: /presentation/
 
 ---
 ## Introduction
+---
 
 ![Cover Slide](Presentation/Slide3.jpg)
 
@@ -57,6 +63,7 @@ context / extra information
 
 ---
 ## Examples
+---
 
 ![Cover Slide](Presentation/Slide7.jpg)
 
@@ -80,6 +87,7 @@ Trivago has also distributed **hundreds of millions of specific, personalised of
 
 ---
 ## Technology
+---
 
 ![Cover Slide](Presentation/Slide10.jpg)
 
@@ -91,13 +99,13 @@ This is what makes Spring Boot such an attractive option. There's an understandi
 
 ![Cover Slide](Presentation/Slide11.jpg)
 
-While other implementations such as EscapeLink exist, Hibernate is by far the most popular amongst them, with the most usage and in-depth documentation. Hibernate removes human error from database configuration by mitigating manual data entry and **produces intrinsically legitimate relations automatically through Java objects**.
+While other implementations such as EscapeLink exist, Hibernate is by far the most popular amongst them, with the most usage and in-depth documentation. 
+
+Hibernate removes human error from database configuration by mitigating manual data entry and **produces intrinsically legitimate relations automatically through Java objects**.
 
 ---
 
 ![Cover Slide](Presentation/Slide12.jpg)
-
-context / extra information
 
 Netflix utilises Cassandra through Spring Boot to deal with the immense amout of data they hold. 
 
@@ -106,6 +114,8 @@ While Spring Boot comes equipped with fundamental support for a wealth of databa
 ---
 
 ## Tutorial
+---
+
 ![Cover Slide](Presentation/Slide13.jpg)
 
 context / extra information
@@ -125,6 +135,7 @@ context / extra information
 ---
 
 ## Conclusion
+---
 
 ![Cover Slide](Presentation/Slide16.jpg)
 
