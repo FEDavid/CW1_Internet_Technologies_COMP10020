@@ -9,6 +9,8 @@ permalink: /tutorial/
 
 # Spring Boot Tutorial
 
+---
+
 - [Spring Boot Tutorial](#spring-boot-tutorial)
   - [Set up VS Code and Docker](#set-up-vs-code-and-docker)
   - [Set up Spring Boot](#set-up-spring-boot)
