@@ -4,9 +4,9 @@
 ---
 
 - [Introduction to Spring Boot](#introduction-to-spring-boot)
-  - [What is Spring Boot?](#what-is-spring-boot?)
-  - [Why have we chosen Spring boot?](#why-have-we-chosen-spring-boot?)
-  - [Pros & Cons](#pros-&-cons)
+  - [What is Spring Boot?](#what-is-spring-boot)
+  - [Why have we chosen Spring boot?](#why-have-we-chosen-spring-boot)
+  - [Pros & Cons](#pros--cons)
 
 ---
 
