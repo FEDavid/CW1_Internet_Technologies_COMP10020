@@ -80,6 +80,7 @@ The **Order Service**, for example, is quick to build with Spring Boot:
 -	**REST endpoints** can be created using @RestController,
 -	**Connection to the database** can be done using Spring Data,
 -	The application can be **monitored** through Spring Boot Actuator.
+
 When it’s ready, the application is simply **packaged as an executable JAR file and can be run directly** (even inside a **Docker container**).
 
 
