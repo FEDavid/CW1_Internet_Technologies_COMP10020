@@ -10,7 +10,6 @@ permalink: /presentation/
 # Spring Boot Presentation
 
 ---
-### Table of Contents
 - [Spring Boot Presentation](#spring-boot-presentation)
   - [Introduction](#introduction)
   - [Examples](#examples)
@@ -90,7 +89,7 @@ When it’s ready, the application is simply **packaged as an executable JAR fil
 ![Cover Slide](Presentation/Slide9.jpg)
 
 
- Netflix has over **200 million users** on their platform so their applications must be run through a framework that can handle that much traffic. Netflix has over **3000 applications all running through Spring Boot**.
+Netflix has over **200 million users** on their platform so their applications must be run through a framework that can handle that much traffic. Netflix has over **3000 applications all running through Spring Boot**.
 
 Trivago has also distributed **hundreds of millions of specific, personalised offers** to users.
 
