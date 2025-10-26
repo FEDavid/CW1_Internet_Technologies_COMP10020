@@ -10,7 +10,6 @@ permalink: /presentation/
 # Spring Boot Presentation
 
 ---
-### Table of Contents
 - [Spring Boot Presentation](#spring-boot-presentation)
   - [Introduction](#introduction)
   - [Examples](#examples)
@@ -41,19 +40,16 @@ permalink: /presentation/
 
 ![Cover Slide](Presentation/Slide3.jpg)
 
-context / extra information
 
 ---
 
 ![Cover Slide](Presentation/Slide4.jpg)
 
- context / extra information
 
 ---
 
 ![Cover Slide](Presentation/Slide5.jpg)
 
- context / extra information
 
 ---
 
@@ -127,19 +123,16 @@ While Spring Boot comes equipped with fundamental support for a wealth of databa
 
 ![Cover Slide](Presentation/Slide13.jpg)
 
-context / extra information
 
 ---
 
 ![Cover Slide](Presentation/Slide14.jpg)
 
-context / extra information
 
 ---
 
 ![Cover Slide](Presentation/Slide15.jpg)
 
-context / extra information
 
 ---
 
