@@ -25,14 +25,14 @@ permalink: /presentation/
 
 
 
- context / extra information
+ 
 
 ---
 
 ![Cover Slide](Presentation/Slide2.jpg)
 
 
- context / extra information
+
 
 
 ---
@@ -59,7 +59,9 @@ context / extra information
 
 ![Cover Slide](Presentation/Slide6.jpg)
 
-context / extra information
+Although Spring Boot is appreciated for the way it **simplifies Java development and accelerates productivity**, there are still some **challenges** to keep in mind.
+Thanks to Spring Boot, developers can launch a project with minimal setup, without deploying to an external application server and benefit from many features such as those offered by Spring Boot Actuator.
+However, all these features increase startup time and memory usage, make debugging harder, include unnecessary libraries and make configuration more complex in large projects.
 
 ---
 ## Examples
@@ -67,13 +69,19 @@ context / extra information
 
 ![Cover Slide](Presentation/Slide7.jpg)
 
-context / extra information
+Spring Boot is widely used for **microservices**, where each service runs independently and exposes a REST API. It’s also common in **web and backend development**, for servers handling requests from mobile or front-end clients. In **cloud-native environments**, it runs smoothly in Docker containers and deploys easily on platforms like AWS or Azure. It also supports **event-driven systems** through tools like Kafka or RabbitMQ, and remains a solid choice for **enterprise applications** such as batch processing or data pipelines.
 
 ---
 
 ![Cover Slide](Presentation/Slide8.jpg)
 
-context / extra information
+Behind the scenes of the online shop, **the system is built from several small services**: for example, one for products, one for users, and another for orders.
+The **Order Service**, for example, is quick to build with Spring Boot:
+-	**REST endpoints** can be created using @RestController,
+-	**Connection to the database** can be done using Spring Data,
+-	The application can be **monitored** through Spring Boot Actuator.
+When it’s ready, the application is simply **packaged as an executable JAR file and can be run directly** (even inside a **Docker container**).
+
 
 ---
 
