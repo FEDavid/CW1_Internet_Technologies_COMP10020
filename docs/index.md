@@ -8,6 +8,7 @@ permalink: /home/
 {% include navbar.html %}
 
 # Welcome!
+---
 This website presents our group’s work on the Spring Boot technology.
 It includes:
 -	a **Home page**,
