@@ -19,6 +19,8 @@ permalink: /tutorial/
 
 Welcome to our Spring Boot tutorial. In this tutorial, we will show you how to set up a simple celebrity lookup API.
 
+---
+
 ## Set up VS Code and Docker
 
 ![VS code setup](images/1.png)
@@ -44,6 +46,8 @@ Select **21-bookworm**.
 ![Docker setup](images/7.png)
 
 With Spring Boot, you can use both Maven and Gradle, but for this demo, we will use Maven.
+
+---
 
 ## Set up Spring Boot
 
@@ -260,6 +264,7 @@ public class DemoApplication {
 }
 ```
 
+---
 
 ## Frontend Setup
 
