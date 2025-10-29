@@ -492,3 +492,11 @@ Then, run:
 This will start the integrated Tomcat server and launch your app.
 
 You should now be able to visit [localhost:8080](http://localhost:8080) and see your app in action.
+
+If you get the error: Permissions denied (This is caused by copying files instad of direct extraction)
+
+Run the command:
+```bash
+chmod +x mvnw
+```
+This will update the mvnw file with the correct permissions and allow it to run the server.
